@@ -56,7 +56,7 @@ header.intro .avatar {
   
   header.intro .avatar .avatar-back {
     padding: 2rem 1rem;
-    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background-image: linear-gradient(135deg, rgb(28, 5, 111), grey);
     color: white;
     transform: rotateY(180deg);
   }
