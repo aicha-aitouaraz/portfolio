@@ -122,5 +122,10 @@ div.realisations article span.titre {
 
 div.container hr {
     margin: 30px;
-
 }
+
+div.formations p img {
+    float: right;
+    height: 70px;
+}
+
