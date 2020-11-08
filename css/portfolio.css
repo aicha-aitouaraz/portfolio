@@ -1,6 +1,6 @@
 header.intro {
     /* Bloc entête présentation */
-    background-color: rgb(95, 93, 102);
+    background-color: rgb(148, 148, 151);
     background-image: linear-gradient(135deg, #3d4e5a 50%, grey 50%);
     color: rgb(95, 93, 102);
     font-size: 1em;
@@ -8,13 +8,13 @@ header.intro {
     margin-bottom: 3rem;
     /* Ombre portée sous le bloc*/
     -webkit-box-shadow: 0 0 15px 10px rgba(161, 95, 95, 0.15);
-    -moz-box-shadow: 0 0 15px 10px rgba(0,0,0,0.15);
-    box-shadow: 0 0 15px 10px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0 0 15px 10px rgba(192, 184, 184, 0.15);
+    box-shadow: 0 0 15px 10px rgba(189, 142, 142, 0.15);
 }
 
 header.intro h1 {
     font-size: 2em;
-    text-shadow: 1px 1px 2px #576a77;
+    text-shadow: 1px 1px 2px black;
 }
 
 header.intro strong {
@@ -122,11 +122,11 @@ div.realisations article span.titre {
 
 div.container hr {
     margin: 30px;
-    background-color: rgb(95, 93, 102);
+    color: rgb(95, 93, 102);
 }
 
 div.formations p img {
     float: right;
-    height: 70px;
+    height: 55px;
 }
 
