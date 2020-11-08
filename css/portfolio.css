@@ -71,6 +71,7 @@ h2 {
 }
 
 div.infos-personnelles {
+    
     margin-bottom: 2rem;
 }
 
@@ -130,3 +131,7 @@ div.formations p img {
     height: 55px;
 }
 
+footer
+{
+    background-image: linear-gradient(to right top, #243043, #2c394f, #35435b, #3e4d68, #475775, #536383, #5f6f92, #6c7ca1, #808eb5, #94a1ca, #a8b4df, #bdc7f4);
+}
