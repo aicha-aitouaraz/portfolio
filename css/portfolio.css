@@ -107,3 +107,20 @@ div.experiences-professionnelles article span.poste {
 div.experiences-professionnelles article p:first-of-type {
     padding-top: 10px;
 }
+
+div.realisations article img.thumb {
+    display: block;
+    width: 50%;
+    margin: 10px auto;
+}
+
+div.realisations article span.titre {
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+div.container hr {
+    margin: 30px;
+
+}
