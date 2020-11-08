@@ -1,0 +1,109 @@
+header.intro {
+    /* Bloc entête présentation */
+    background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+    color: white;
+    font-size: 1em;
+    padding: 3rem 0 2rem 0;
+    margin-bottom: 3rem;
+    /* Ombre portée sous le bloc*/
+    -webkit-box-shadow: 0 0 15px 10px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0 0 15px 10px rgba(0,0,0,0.15);
+    box-shadow: 0 0 15px 10px rgba(0,0,0,0.15);
+}
+
+header.intro h1 {
+    font-size: 2em;
+    text-shadow: 1px 1px 2px #8BC6EC;
+}
+
+header.intro strong {
+    text-shadow: 0 0 1px white;
+}
+
+header.intro .avatar {
+    /* Tuile avatar tournante */
+    display: inline-block;
+    margin-bottom: 1.5rem;
+    background-color: transparent;
+    width: 200px;
+    height: 200px;
+  }
+  
+  header.intro .avatar .avatar-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  header.intro .avatar:hover .avatar-inner {
+    transform: rotateY(180deg);
+  }
+  
+  header.intro .avatar .avatar-front, 
+  header.intro .avatar .avatar-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  
+  header.intro .avatar .avatar-back {
+    padding: 2rem 1rem;
+    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+  header.intro .avatar .avatar-back h1 {
+    font-size: 2em;
+    text-shadow: none;
+}
+
+h2 {
+    font-size: 1.6em;
+}
+
+div.infos-personnelles {
+    margin-bottom: 2rem;
+}
+
+div.infos-personnelles h2 {
+    margin-bottom: 0.3rem!important;
+}
+
+div.infos-personnelles span.age,
+div.infos-personnelles span.ville {
+    font-weight: 200;
+}
+
+div.formations {
+    margin-top: 2rem;
+}
+
+div.experiences-professionnelles article {
+    padding: 0.5rem 1rem 0.25rem 1rem;
+}
+
+div.experiences-professionnelles article img.entreprise {
+    height: 40px;
+    float: left;
+    padding-right: 10px;    
+}
+
+div.experiences-professionnelles article span.poste {
+    float: left;
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+div.experiences-professionnelles article p:first-of-type {
+    padding-top: 10px;
+}
