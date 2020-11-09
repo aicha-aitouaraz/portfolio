@@ -1,8 +1,8 @@
 header.intro {
     /* Bloc entête présentation */
-    background-color: rgb(148, 148, 151);
-    background-image: linear-gradient(135deg, #3d4e5a 50%, grey 50%);
-    color: rgb(95, 93, 102);
+    background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+    color: white;
     font-size: 1em;
     padding: 3rem 0 2rem 0;
     margin-bottom: 3rem;
@@ -93,13 +93,10 @@ div.experiences-professionnelles article {
 }
 
 div.experiences-professionnelles article img.entreprise {
-    height: 40px;
-    float: left;
-    padding-right: 10px;    
+    width: 160px;
 }
 
 div.experiences-professionnelles article span.poste {
-    float: left;
     font-size: 1.2rem;
     font-weight: 500;
     line-height: 40px;
@@ -128,10 +125,21 @@ div.container hr {
 
 div.formations p img {
     float: right;
-    height: 55px;
+    width: 80px;
 }
 
 footer
 {
-    background-image: linear-gradient(to right top, #243043, #2c394f, #35435b, #3e4d68, #475775, #536383, #5f6f92, #6c7ca1, #808eb5, #94a1ca, #a8b4df, #bdc7f4);
+    background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 0;
+    line-height: 50px;
+    color: white;
+}
+
+footer p
+{
+    margin: 0;
 }
