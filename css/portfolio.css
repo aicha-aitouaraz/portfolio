@@ -93,7 +93,7 @@ div.experiences-professionnelles article {
 }
 
 div.experiences-professionnelles article img.entreprise {
-    width: 160px;
+    width: 150px;
 }
 
 div.experiences-professionnelles article span.poste {
@@ -135,7 +135,7 @@ footer
     text-align: center;
     margin-top: 50px;
     margin-bottom: 0;
-    line-height: 50px;
+    line-height: 60px;
     color: white;
 }
 
