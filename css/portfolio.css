@@ -196,7 +196,6 @@ div.formations p img {
 }
 
 .progress-meter > .meter {
-	position: relative;
 	float: left;
 	min-height: 15px;
 	border-width: 0px;
