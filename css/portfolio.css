@@ -1,6 +1,6 @@
 body
 {
-    margin: 25px;
+    margin: 15px;
 }
 
 
@@ -63,7 +63,7 @@ header.intro .avatar {
   
   header.intro .avatar .avatar-front {
     padding: 2rem 1rem;
-    background-image: linear-gradient(135deg, rgb(176, 191, 196), rgba(34, 38, 61, 0.918));
+    background-image: linear-gradient(135deg, rgb(176, 191, 196), rgba(123, 120, 155, 0.918));
     color: white;
     transform: rotateY(180deg);
   }
@@ -79,6 +79,8 @@ h2 {
 h3{
     font-size: 1.6em;
 }
+
+/* Badge titres */
 .badge-info {
     color: white;
     background-color: #707272;
@@ -100,7 +102,7 @@ h3{
     padding-left: .6em;
     border-radius: 10rem;
 }
-
+/* fin Badge titres */
 div.infos-personnelles {
     
     margin-bottom: 2rem;
@@ -150,14 +152,14 @@ div.realisations article span.titre {
 }
 
 div.container hr {
-    margin: 30px;
+    margin: 15px;
     color: rgb(95, 93, 102);
 }
 
 div.container2 {
     font-size: 1.2rem;
     font-weight: 200;
-    line-height: 40px;
+    line-height: 20px;
 }
 
 
@@ -168,11 +170,13 @@ div.formations p img {
 }
 
 
- 
+ /* nav bar en standby */
 .navbar-why-you-so-small > .navbar-collapse {
 	background-color: rgba(51, 51, 51, 0.8);
 }
+/* fin nav bar en standby */
 
+/* jauge competences */
 .progress-bar {
 	text-align: left;
 	white-space: nowrap;
@@ -227,13 +231,12 @@ div.formations p img {
 .progress-meter > .meter.meter-right > .meter-text {
 	text-align: right;
 }
-
+/* fin jauge competences */
 footer
 {
-    background-color: #8BC6EC;
-    background: radial-gradient(circle, rgb(99, 101, 104) 0%, rgba(23,23,24,1) 100%);
+    background-color: #d1d2d3;
+    background: radial-gradient(circle, rgb(179, 180, 182) 0%, rgba(23,23,24,1) 100%);
     text-align: center;
-    margin-top: 70px;
     margin-bottom: 0;
     line-height: 90px;
     color: white;
