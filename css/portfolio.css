@@ -154,6 +154,14 @@ div.container hr {
     color: rgb(95, 93, 102);
 }
 
+div.container2 {
+    font-size: 1.2rem;
+    font-weight: 200;
+    line-height: 40px;
+}
+
+
+
 div.formations p img {
     float: right;
     width: 90px;
@@ -179,7 +187,7 @@ div.formations p img {
 }
 
 .progress-meter {
-	min-height: 15px;
+	min-height: 40px;
 	border-bottom: 2px solid rgb(160, 160, 160);
 }
 
